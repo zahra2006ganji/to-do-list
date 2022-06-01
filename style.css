@@ -1,0 +1,78 @@
+@font-face
+{
+    font-family: 'koodak';
+    src: url('../font/B-Koodak/B\ Koodak\ Bold_0.ttf'); 
+}
+body {
+    direction: rtl;
+    text-align: right !important;
+    font-family: "koodak" !important;
+    background-image: url(../pics/IMG_20220201_230740_855.jpg);
+    background-image: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 18px;
+    color: #ffff;
+}
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+    height: 550px;
+    text-align: right;
+    border-radius: 5px;
+    margin: 100px auto;
+    background-image: linear-gradient(to bottom, rgba(12, 13, 31, 0.904) , rgb(7, 25, 104));
+}
+.form-group{
+    margin-right: 40px;
+}
+hr{
+    width: 590px;
+}
+label {
+    display: block;
+}
+button{
+    font-family: "koodak" !important; 
+    width: 90px; 
+    height: 30px;
+    background-color: rgba(59, 37, 255, 0.788);
+    border: 2px solid #000;  
+}
+button:active
+{
+   background-color: rgba(2, 2, 87, 0);  
+}
+input{
+    width: 600px;
+    height: 23px;
+}
+input::placeholder {
+    color:    rgba(78, 78, 78, 0.705);
+    font-family: 'koodak';
+    font-size: 18px;
+ }
+ h5 {
+     font-size: 20px;
+ }
+ i {
+    justify-content: flex-end;
+    color: rgb(233, 5, 5);
+    padding: 5px 0px 0px 10px;
+ }
+ i:active {
+    color: rgb(100, 0, 0);
+ }
+ .list-group-item {
+    list-style-type:none;
+    border: 1px solid #000;
+    width: 500px; 
+    padding-right: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+ }
+

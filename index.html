@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="././font/fontawesome-free-6.0.0-beta2-web/css/all.min.css" />
+</head>
+<body>
+    <div id="container">
+        <form id="task-form">
+            <div class="form-group">
+                <label for="task">ایجاد تسک</label>
+                <input type="text" class="form-control" name="task" id="task" placeholder="تسک را وارد کنید ...">
+            </div>
+                <button type="submit" id="btn1"  class="form-group">اضافه کردن</button>
+        </form>
+
+        <hr>
+
+        <h5 id="task-title"  class="form-group"> تسک ها </h5>
+        <div class="form-group">
+            <label for="filter">فیلتر تسک</label>
+            <input type="email" class="form-control" name="filter" id="filter" placeholder=" تسک ...">
+        </div>
+        <div class="form-group">
+            <ul class="list-group" id="tasks">
+                
+                 <!-- <li class="list-group-item"> -->
+                    <!-- تسک 1
+                    <i class="fas fa-times text-danger mr-auto delete-item"></i>
+                </li> -->
+              
+                </ul>
+        </div>
+        <button type="submit" id="btn2"  class="form-group">پاک کردن</button>
+    </div>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
